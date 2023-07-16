@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Explorer</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1>Emoji Explorer</h1> 
+    <div class="container">
+        <div class="filters">
+            <label for="category-select">Filter by Category:</label>
+            <select id="category-select">
+                <option value="">All</option>
+            </select>
+        </div>
+
+        <ul id="emojiList"></ul>
+
+        <div class="pagination">
+            <button id="prev-page-btn" disabled>Previous</button>
+            <span id="page-number">Page 1</span>
+            <button id="next-page-btn" disabled>Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
